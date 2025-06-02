@@ -22,12 +22,12 @@ You need to filter the PokeList to only show Pokémon whose names start with the
 If there are no results: display a message to the user indicating that no Pokémon match their search.
 
 - #### Ticket 2 : Sort the PokeList Alphabetically
-Add a “Sort” button next to the search bar with 3 possible states.
-By default, the button is not highlighted, it displays “Sort”, and the PokeList is not sorted.
-If the user clicks on it, it becomes highlighted in red with the label “Sort A-Z” and the PokeList is sorted in ascending alphabetical order.
-If the user clicks it again, it remains highlighted in red but now displays “Sort Z-A” and the PokeList is sorted in descending alphabetical order.
-If the user clicks once more, it returns to the default state.
-Sorting and searching should work together when both are active.
+    - Add a “Sort” button next to the search bar with 3 possible states.
+    - By default, the button is not highlighted, it displays “Sort”, and the PokeList is not sorted.
+    - If the user clicks on it, it becomes highlighted in red with the label “Sort A-Z” and the PokeList is sorted in ascending alphabetical order.
+    - If the user clicks it again, it remains highlighted in red but now displays “Sort Z-A” and the PokeList is sorted in descending alphabetical order.
+    - If the user clicks once more, it returns to the default state.
+    - Sorting and searching should work together when both are active.
 
 - #### Ticket 3 : Display the Selected Pokémon's PokeCard to the Right of the PokeList
 API routes we will use: 
